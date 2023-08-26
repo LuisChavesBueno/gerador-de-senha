@@ -1,0 +1,113 @@
+*{
+   font-family: sans-serif;
+   width: 100%;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: #181818;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    width: 410px;
+    margin-bottom: 24px;
+    color: wheat;
+}
+
+
+.container-input{
+    width: 488px;
+    margin: 14px;
+}
+
+.container-input{
+    color:#ffff;
+    font-size: 22px;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 10px;
+    height: 18px;
+    outline: none;
+    margin-top: 8px;
+    
+}
+
+.button-cta{
+    border: 0;
+    height: 48px;
+    background: #3eb72b;
+    border-radius: 4px;
+    
+    /*para aparecer a mãosinha quando passar o mause em cima use so  cursor: pointer;*/
+    cursor: pointer;
+
+    margin-top:40px ;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container-pasword{
+    max-width:488px;
+    margin: 14px 0 ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-size: 20px ;
+    margin-bottom:8px;
+}
+
+.password{
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    border:1px solid #323232;
+    transition:transform 0.5s ;
+}
+
+.password:hover{
+    transform:scale(1.01) ;
+}
+
+.tooplir{
+    color: #ffff;
+    position: relative;
+    top:20px;
+    padding:6px  8px;
+    background-color: rgb(15,15,15);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    visibility:hidden ;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.hide{
+    display: none;
+}
+
+.container-pasword:hover .tooplir{
+    visibility: visible;
+    bottom:50px ;
+    opacity: 1;
+}
