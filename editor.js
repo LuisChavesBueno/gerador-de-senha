@@ -6,7 +6,7 @@ let Passowod = document.querySelector("#password")
 
 let conternerPassword = document.querySelector("#container-pasword")
 
-let charset = "1234567890qwertyuiopaassdfghjklçmnbvcxz!@#$%¨&*"
+let charset = "12344567890 "
 let novaSenha = ""
 
 //para aparecer o numero no meio do TAMANHO     CARACTERES 
